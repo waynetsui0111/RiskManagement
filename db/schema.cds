@@ -30,7 +30,7 @@ entity Mitigations : cuid, managed {
 entity Priority : CodeList {
         key code : String enum {
                     high   = 'H';
-                    medium = 'M';
+                    medium = 'L';
                     low    = 'L';
             };
 }
