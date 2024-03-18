@@ -17,7 +17,7 @@ module.exports = cds.service.impl(async function () {
         // Looping through the array of risks to set the virtual field 'criticality' that you defined in the schema
         risks.forEach((risk) => {
             if (risk.impact >= 100000) {
-                risk.criticality = 2;
+                risk.criticality = 3;
             } else {
                 risk.criticality = 1;
             }
